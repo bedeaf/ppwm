@@ -41,12 +41,12 @@ inline constexpr char font[] =
 inline constexpr char fallback_font[] =
     "Lilex Nerd Font Mono:style=Regular:size=13:antialias=true:hinting=true";
 inline constexpr char background[] = "#000000", foreground[] = "#a0a0a0", accent[] = "#202020";
-inline constexpr char bar_muted[] = "#606060", bar_bright[] = "#a0a0a0";
+inline constexpr char bar_muted[] = "#606060", bar_bright[] = "#e0e0e0";
 inline constexpr char bar_title_background[] = "#101010", bar_divider[] = "#202020";
-inline constexpr char normal_border[] = "#202020", selected_border[] = "#808080";
+inline constexpr char normal_border[] = "#202020", selected_border[] = "#a0a0a0";
 inline constexpr char terminal[] = "urxvtc +j || urxvt +j";
 inline constexpr char launcher[] =
-    "dmenu_run -m 0 -nb '#000000' -nf '#a0a0a0' -sb '#202020' -sf '#a0a0a0' -p '>>>'";
+    "dmenu_run -m 0 -nb '#000000' -nf '#a0a0a0' -sb '#202020' -sf '#e0e0e0' -p '>>>'";
 inline constexpr char scratchpad[] =
     "urxvtc +j -name scratchpad -geometry 100x28 || urxvt +j -name scratchpad -geometry 100x28";
 inline constexpr char battery_path[] = "/sys/class/power_supply/BAT0/capacity";
